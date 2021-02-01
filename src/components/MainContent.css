@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #393c41;
+}
+
+.item {
+  height: 100vh;
+  width: 100vw;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desc {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5.5rem;
+  color: var(--primary-color);
+}
+
+.desc h3 {
+  font-size: 2rem;
+}
+
+.desc p {
+  font-size: 1rem;
+  margin-top: 0.6rem;
+  font-weight: 200;
+}
+
+.btn-container {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.scroll img {
+  margin-bottom: 1rem;
+}
